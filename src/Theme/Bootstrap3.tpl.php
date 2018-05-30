@@ -242,6 +242,9 @@ else
 
 		echo "--></script>\n";
 	}
+
+	if($append_html = $self->get('append_html'))
+		echo $append_html;
 ?>
 
 </body>
